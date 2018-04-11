@@ -81,19 +81,19 @@ pairs = (
        "Very interesting."))
 )
 
-friend_chatbot = Chat(pairs, reflections)
+alpha_chatbot = Chat(pairs, reflections)
 
-def friend_chat():
-    print("Friend\n---------")
+def alpha_chat():
+    print("Alpha\n---------")
     print("You can talk to me by typing in English.")
     print('Enter "quit" to Quit.')
     print('='*72)
     print("Hello. My name is Alpha. Tell me something about yourself..")
 
-    friend_chatbot.converse()
+    alpha_chatbot.converse()
 
 def demo():
-    friend_chat()
+    alpha_chat()
 
 if __name__ == "__main__":
     demo()
