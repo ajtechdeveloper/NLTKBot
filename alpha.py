@@ -75,6 +75,10 @@ pairs = (
        "I am not sure.",
        "I do not know the answer to your question")),
 
+    (r'(.*) (happy|cheerful|glad|good)',
+     ( "%1 %2",
+       "%1 %2")),
+
     (r'(.*)',
      ( "Alright.",
        "I see.",
